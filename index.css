@@ -1,0 +1,12 @@
+:root 
+{
+	--main-color: #47C84D;
+}
+
+header{
+	background: var(--main-color);
+}
+
+i{
+	color: white;
+}
