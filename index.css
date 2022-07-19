@@ -10,3 +10,43 @@ header{
 i{
 	color: white;
 }
+
+@media screen and (max-width: 1399px) { /*xl*/
+        
+	#logo{
+		font-size: 4em;
+	}
+
+}
+
+@media screen and (max-width: 1199px) { /*lg*/
+        
+	#logo{
+			font-size: 3em;
+	}
+
+}
+
+@media screen and (max-width: 991px) { /*md*/
+        
+	#logo{
+			font-size: 2.75em;
+	}
+
+}
+
+@media screen and (max-width: 767px) { /*sm*/
+        
+	#logo{
+			font-size: 2.5em;
+	}
+
+}
+
+@media screen and (max-width: 575px) { /*xs*/
+        
+	#logo{
+			font-size: 2.25em;
+	}
+
+}
