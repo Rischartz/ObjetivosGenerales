@@ -1,11 +1,10 @@
 :root 
 {
-	--main-color: #44814C;
+	--main-color: #DAB22E;
 }
 
 header{
         background: var(--main-color);
-        background: linear-gradient(to right, rgba(68,129,76,1), rgba(153,209,161,1));
 }
 
 #logo, #logoTitle{
