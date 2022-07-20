@@ -11,6 +11,10 @@ header{
 	color: white;
 }
 
+#logoTitle{
+       font-family: 'Oswald', sans-serif; 
+}
+
 @media screen and (max-width: 1399px) { /*xl*/
         
 	#logo, #logoTitle{
