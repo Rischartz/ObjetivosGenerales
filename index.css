@@ -5,6 +5,7 @@
 
 header{
 	background: var(--main-color);
+        background: linear-gradient(NaNdeg, rgba(68,129,76,1) 0%, rgba(153,209,161,1) 43%, rgba(255,255,255,1) 100%);
 }
 
 #logo, #logoTitle{
@@ -17,7 +18,7 @@ header{
 
 @media screen and (max-width: 1399px) { /*xl*/
         
-	#logo, #logoTitle{
+	#logo{
 		font-size: 4rem;
 	}
  
@@ -30,7 +31,7 @@ header{
 
 @media screen and (max-width: 1199px) { /*lg*/
         
-	#logo, #logoTitle{
+	#logo{
 			font-size: 3.5rem;
 	}
 
@@ -43,7 +44,7 @@ header{
 
 @media screen and (max-width: 991px) { /*md*/
         
-	#logo, #logoTitle{
+	#logo{
 			font-size: 3rem;
 	}
 
@@ -56,7 +57,7 @@ header{
 
 @media screen and (max-width: 767px) { /*sm*/
         
-	#logo, #logoTitle{
+	#logo{
 			font-size: 2.5rem;
 	}
 
@@ -69,7 +70,7 @@ header{
 
 @media screen and (max-width: 575px) { /*xs*/
         
-	#logo, #logoTitle{
+	#logo{
 			font-size: 2rem;
 	}
 
