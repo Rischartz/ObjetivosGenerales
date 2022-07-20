@@ -4,7 +4,8 @@
 }
 
 header{
-        background: linear-gradient(0deg, rgba(68,129,76,1) 0%, rgba(153,209,161,1) 43%, rgba(255,255,255,1) 100%);
+        background: var(--main-color);
+        background: linear-gradient(to right, rgba(68,129,76,1), rgba(153,209,161,1));
 }
 
 #logo, #logoTitle{
