@@ -14,7 +14,7 @@ header{
 @media screen and (max-width: 1399px) { /*xl*/
         
 	#logo{
-		font-size: 3em;
+		font-size: 2rem;
 	}
 
 }
@@ -22,7 +22,7 @@ header{
 @media screen and (max-width: 1199px) { /*lg*/
         
 	#logo{
-			font-size: 2em;
+			font-size: 1.75rem;
 	}
 
 }
@@ -30,7 +30,7 @@ header{
 @media screen and (max-width: 991px) { /*md*/
         
 	#logo{
-			font-size: 1.75em;
+			font-size: 1.5rem;
 	}
 
 }
@@ -38,7 +38,7 @@ header{
 @media screen and (max-width: 767px) { /*sm*/
         
 	#logo{
-			font-size: 1.5em;
+			font-size: 1.25rem;
 	}
 
 }
@@ -46,7 +46,7 @@ header{
 @media screen and (max-width: 575px) { /*xs*/
         
 	#logo{
-			font-size: 1.25em;
+			font-size: 1rem;
 	}
 
 }
