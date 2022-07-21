@@ -22,12 +22,12 @@ header{
 	}
  
         header{
-                padding-top:2rem;
-                padding-bottom:2rem;
+                padding-top:1rem;
+                padding-bottom:1rem;
         }
 
 	main{
-		margin-top: 8rem;
+		margin-top: 6rem;
 	}
 
 }
@@ -39,12 +39,12 @@ header{
 	}
 
         header{
-                padding-top:1.75rem;
-                padding-bottom:1.75rem;
+                padding-top:0.875rem;
+                padding-bottom:0.875rem;
         }
 
 		main{
-			margin-top: 7rem;
+			margin-top: 5.25rem;
 		}
 
 }
@@ -56,12 +56,12 @@ header{
 	}
 
         header{
-                padding-top:1.5rem;
-                padding-bottom:1.5rem;
+                padding-top:0.75rem;
+                padding-bottom:0.75rem;
         }
 
 		main{
-			margin-top: 6rem;
+			margin-top: 4.5rem;
 		}
 
 }
@@ -73,12 +73,12 @@ header{
 	}
 
         header{
-                padding-top:1.25rem;
-                padding-bottom:1.25rem;
+                padding-top:0.625rem;
+                padding-bottom:0.625rem;
         }
 
 		main{
-			margin-top: 5rem;
+			margin-top: 3.75rem;
 		}
 
 }
@@ -90,11 +90,11 @@ header{
 	}
 
         header{
-                padding-top:1rem;
-                padding-bottom:1rem;
+                padding-top:0.5rem;
+                padding-bottom:0.5rem;
         }
 
 		main{
-			margin-top: 4rem;
+			margin-top: 3rem;
 		}
 }
