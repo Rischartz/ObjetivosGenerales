@@ -18,16 +18,16 @@ header{
 @media screen and (max-width: 1399px) { /*xl*/
         
 	#logo{
-		font-size: calc(1rem * -xl-font-factor * 2);
+		font-size: calc(1rem * var(--xl-font-factor) * 2);
 	}
  
 	header{
-		padding-top:calc((1rem * -xl-font-factor * 2) / 3);
-		padding-bottom:calc((1rem * -xl-font-factor * 2) / 3);
+		padding-top:calc((1rem * var(--xl-font-factor) * 2) / 3);
+		padding-bottom:calc((1rem * var(--xl-font-factor) * 2) / 3);
 	}
 
 	main{
-		margin-top: calc((1rem * -xl-font-factor * 2) * (5 / 3));
+		margin-top: calc((1rem * var(--xl-font-factor) * 2) * (5 / 3));
 	}
 
 }
@@ -35,16 +35,16 @@ header{
 @media screen and (max-width: 1199px) { /*lg*/
         
 	#logo{
-		font-size: calc(1rem * -lg-font-factor * 2);
+		font-size: calc(1rem * var(--lg-font-factor) * 2);
 	}
  
 	header{
-		padding-top:calc((1rem * -lg-font-factor * 2) / 3);
-		padding-bottom:calc((1rem * -lg-font-factor * 2) / 3);
+		padding-top:calc((1rem * var(--lg-font-factor) * 2) / 3);
+		padding-bottom:calc((1rem * var(--lg-font-factor) * 2) / 3);
 	}
 
 	main{
-		margin-top: calc((1rem * -lg-font-factor * 2) * (5 / 3));
+		margin-top: calc((1rem * var(--lg-font-factor) * 2) * (5 / 3));
 	}
 
 }
@@ -52,16 +52,16 @@ header{
 @media screen and (max-width: 991px) { /*md*/
         
 	#logo{
-		font-size: calc(1rem * -md-font-factor * 2);
+		font-size: calc(1rem * var(--md-font-factor) * 2);
 	}
  
 	header{
-		padding-top:calc((1rem * -md-font-factor * 2) / 3);
-		padding-bottom:calc((1rem * -md-font-factor * 2) / 3);
+		padding-top:calc((1rem * var(--md-font-factor) * 2) / 3);
+		padding-bottom:calc((1rem * var(--md-font-factor) * 2) / 3);
 	}
 
 	main{
-		margin-top: calc((1rem * -md-font-factor * 2) * (5 / 3));
+		margin-top: calc((1rem * var(--md-font-factor) * 2) * (5 / 3));
 	}
 
 }
@@ -69,16 +69,16 @@ header{
 @media screen and (max-width: 767px) { /*sm*/
         
 	#logo{
-		font-size: calc(1rem * -sm-font-factor * 2);
+		font-size: calc(1rem * var(--sm-font-factor) * 2);
 	}
  
 	header{
-		padding-top:calc((1rem * -sm-font-factor * 2) / 3);
-		padding-bottom:calc((1rem * -sm-font-factor * 2) / 3);
+		padding-top:calc((1rem * var(--sm-font-factor) * 2) / 3);
+		padding-bottom:calc((1rem * var(--sm-font-factor) * 2) / 3);
 	}
 
 	main{
-		margin-top: calc((1rem * -sm-font-factor * 2) * (5 / 3));
+		margin-top: calc((1rem * var(--sm-font-factor) * 2) * (5 / 3));
 	}
 
 }
@@ -86,15 +86,15 @@ header{
 @media screen and (max-width: 575px) { /*xs*/
         
 	#logo{
-		font-size: calc(1rem * -xs-font-factor * 2);
+		font-size: calc(1rem * var(--xs-font-factor) * 2);
 	}
  
 	header{
-		padding-top:calc((1rem * -xs-font-factor * 2) / 3);
-		padding-bottom:calc((1rem * -xs-font-factor * 2) / 3);
+		padding-top:calc((1rem * var(--xs-font-factor) * 2) / 3);
+		padding-bottom:calc((1rem * var(--xs-font-factor) * 2) / 3);
 	}
 
 	main{
-		margin-top: calc((1rem * -xs-font-factor * 2) * (5 / 3));
+		margin-top: calc((1rem * var(--xs-font-factor) * 2) * (5 / 3));
 	}
 }
