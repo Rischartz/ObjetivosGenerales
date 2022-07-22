@@ -1,6 +1,6 @@
 :root 
 {
-	--main-color: #C68B03;
+	--main-color: #220547;
 }
 
 header{
@@ -18,16 +18,16 @@ header{
 @media screen and (max-width: 1399px) { /*xl*/
         
 	#logo{
-		font-size: 4rem;
+		font-size: calc(1rem * -xl-font-factor * 2);
 	}
  
-        header{
-                padding-top:1rem;
-                padding-bottom:1rem;
-        }
+	header{
+		padding-top:calc((1rem * -xl-font-factor * 2) / 3);
+		padding-bottom:calc((1rem * -xl-font-factor * 2) / 3);
+	}
 
 	main{
-		margin-top: 6rem;
+		margin-top: calc((1rem * -xl-font-factor * 2) * (5 / 3));
 	}
 
 }
@@ -35,66 +35,66 @@ header{
 @media screen and (max-width: 1199px) { /*lg*/
         
 	#logo{
-			font-size: 3.5rem;
+		font-size: calc(1rem * -lg-font-factor * 2);
+	}
+ 
+	header{
+		padding-top:calc((1rem * -lg-font-factor * 2) / 3);
+		padding-bottom:calc((1rem * -lg-font-factor * 2) / 3);
 	}
 
-        header{
-                padding-top:0.875rem;
-                padding-bottom:0.875rem;
-        }
-
-		main{
-			margin-top: 5.25rem;
-		}
+	main{
+		margin-top: calc((1rem * -lg-font-factor * 2) * (5 / 3));
+	}
 
 }
 
 @media screen and (max-width: 991px) { /*md*/
         
 	#logo{
-			font-size: 3rem;
+		font-size: calc(1rem * -md-font-factor * 2);
+	}
+ 
+	header{
+		padding-top:calc((1rem * -md-font-factor * 2) / 3);
+		padding-bottom:calc((1rem * -md-font-factor * 2) / 3);
 	}
 
-        header{
-                padding-top:0.75rem;
-                padding-bottom:0.75rem;
-        }
-
-		main{
-			margin-top: 4.5rem;
-		}
+	main{
+		margin-top: calc((1rem * -md-font-factor * 2) * (5 / 3));
+	}
 
 }
 
 @media screen and (max-width: 767px) { /*sm*/
         
 	#logo{
-			font-size: 2.5rem;
+		font-size: calc(1rem * -sm-font-factor * 2);
+	}
+ 
+	header{
+		padding-top:calc((1rem * -sm-font-factor * 2) / 3);
+		padding-bottom:calc((1rem * -sm-font-factor * 2) / 3);
 	}
 
-        header{
-                padding-top:0.625rem;
-                padding-bottom:0.625rem;
-        }
-
-		main{
-			margin-top: 3.75rem;
-		}
+	main{
+		margin-top: calc((1rem * -sm-font-factor * 2) * (5 / 3));
+	}
 
 }
 
 @media screen and (max-width: 575px) { /*xs*/
         
 	#logo{
-			font-size: 2rem;
+		font-size: calc(1rem * -xs-font-factor * 2);
+	}
+ 
+	header{
+		padding-top:calc((1rem * -xs-font-factor * 2) / 3);
+		padding-bottom:calc((1rem * -xs-font-factor * 2) / 3);
 	}
 
-        header{
-                padding-top:0.5rem;
-                padding-bottom:0.5rem;
-        }
-
-		main{
-			margin-top: 3rem;
-		}
+	main{
+		margin-top: calc((1rem * -xs-font-factor * 2) * (5 / 3));
+	}
 }
