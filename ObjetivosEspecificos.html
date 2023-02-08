@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="es" ng-app="Objetivos" ng-controller="ObjetivosController as obj">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Objetivos Específicos</title>
+  </head>
+  <body ng-init="obj.filtrar()">
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+		<div class="container-fluid">
+            <a class="navbar-brand text-white" href="#"><strong>RISCHARTZ</strong></a>
+		</div>
+	  </nav>
+
+    <main class="container">
+      <h5 ng-if="obj.id==1">Guardar credenciales de manera segura.</h5>
+      <h5 ng-if="obj.id==2">Preparar dispositivos móviles en caso de extravío o robo.</h5>
+      <h5 ng-if="obj.id==3">Ordenar el hogar.</h5>
+      <h5 ng-if="obj.id==4">Iniciar un proyecto mecatrónico.</h5>
+      <h5 ng-if="obj.id==5">Aprender a ser un buen técnico en electrónica.</h5>
+      <h5 ng-if="obj.id==6">Resolver problemas financieros.</h5>
+      <h5 ng-if="obj.id==7">Obtener título y cédula en digital.</h5>
+      <h5 ng-if="obj.id==8">Terminar torneo.</h5>
+      <h5 ng-if="obj.id==9">Mejorar en informática.</h5>
+      <h5 ng-if="obj.id==10">Apoyar a Karen con ingeniería.</h5>
+
+      <ul class="col">
+        
+      </ul>
+    </main>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <script src="/controller/objetivos.js"></script>
+</body>
+</html>
